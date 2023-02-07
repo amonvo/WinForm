@@ -31,7 +31,24 @@ namespace Calculator
 			//
 			InitializeComponent();
 
-		}
+            greenCheckBox.BackColor = Color.Green;
+            greenCheckBox.Font = new Font("Arial", 12);
+            greenCheckBox.Checked = true;
+
+            redCheckBox.BackColor = Color.Red;
+            redCheckBox.Font = new Font("Serif", 12);
+            redCheckBox.Checked = true;
+
+
+            blueCheckBox.BackColor = Color.Blue;
+            blueCheckBox.Font = new Font("Arial", 12);
+            blueCheckBox.Checked = true;
+
+
+            yellowCheckBox.BackColor = Color.Yellow;
+            yellowCheckBox.Font = new Font("Serif", 12);
+            yellowCheckBox.Checked = true;
+        }
 		void Button10Click(object sender, EventArgs e)
 		{
 			textBox1.Text += "0";
@@ -188,5 +205,30 @@ namespace Calculator
 			}
 			textBox1.Text = result.ToString();
 		}
-	}
+
+        private void buttonBarvy_Click(object sender, EventArgs e)
+        {
+            if (greenCheckBox.Checked)
+            {
+                MessageBox.Show("Green");
+            }
+            if (blueCheckBox.Checked)
+            {
+                MessageBox.Show("Blue");
+            }
+            if (redCheckBox.Checked)
+            {
+                MessageBox.Show("Red");
+            }
+            if (yellowCheckBox.Checked)
+            {
+                MessageBox.Show("Yellow");
+            }
+        }
+
+        private void buttonText_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Vytvoren update pro git", "Název okna", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+        }
+    }
 }
