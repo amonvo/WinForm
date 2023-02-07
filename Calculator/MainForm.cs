@@ -22,7 +22,7 @@ namespace Calculator
 		public string operation = "";
 		public double lastnum = 0.0;
 		public double result = 0.0;
-		
+		int abacuses = 0;
 		
 		public MainForm()
 		{
@@ -239,6 +239,17 @@ namespace Calculator
 			PointF pnt1 = new PointF(0, 15000);
             PointF pnt2 = new PointF(50, 0);
 			e.Graphics.DrawLine(blackpen, pnt1, pnt2);
+        }
+
+        private void buttonPocitadlo_Click(object sender, EventArgs e)
+        {
+            abacuses++;
+            buttonPocitadlo.Text = "Počet kliknutí: " + abacuses;
+        }
+
+        private void buttonPicture_Click(object sender, EventArgs e)
+        {
+			pictureBox1.Visible = true;
         }
     }
 }

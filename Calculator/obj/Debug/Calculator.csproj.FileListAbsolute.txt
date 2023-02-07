@@ -48,3 +48,4 @@ C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\obj\De
 C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
 C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
 C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.Properties.Resources.resources
