@@ -1,0 +1,48 @@
+G:\C#\AIK2019\FORMS\Calculator\Calculator\bin\Debug\Calculator.exe.config
+G:\C#\AIK2019\FORMS\Calculator\Calculator\bin\Debug\Calculator.exe
+G:\C#\AIK2019\FORMS\Calculator\Calculator\bin\Debug\Calculator.pdb
+G:\C#\AIK2019\FORMS\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+G:\C#\AIK2019\FORMS\Calculator\Calculator\obj\Debug\Calculator.MainForm.resources
+G:\C#\AIK2019\FORMS\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+G:\C#\AIK2019\FORMS\Calculator\Calculator\obj\Debug\Calculator.exe
+G:\C#\AIK2019\FORMS\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Vojta\Pictures\úkolCals\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Vojta\Pictures\úkolCals\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Vojta\Pictures\úkolCals\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Vojta\Pictures\úkolCals\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Vojta\Pictures\úkolCals\Calculator\Calculator\obj\Debug\Calculator.MainForm.resources
+C:\Users\Vojta\Pictures\úkolCals\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Vojta\Pictures\úkolCals\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Vojta\Pictures\úkolCals\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Petr\Documents\SharpDevelop Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Petr\Documents\SharpDevelop Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Petr\Documents\SharpDevelop Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Petr\Documents\SharpDevelop Projects\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Petr\Documents\SharpDevelop Projects\Calculator\Calculator\obj\Debug\Calculator.MainForm.resources
+C:\Users\Petr\Documents\SharpDevelop Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Petr\Documents\SharpDevelop Projects\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Petr\Documents\SharpDevelop Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Vojta\Desktop\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Vojta\Desktop\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Vojta\Desktop\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Vojta\Desktop\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Vojta\Desktop\Calculator\Calculator\obj\Debug\Calculator.MainForm.resources
+C:\Users\Vojta\Desktop\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Vojta\Desktop\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Vojta\Desktop\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\bin\Debug\Calculator.exe
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.MainForm.resources
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.exe
+C:\Users\Vojta\Desktop\CalculatorAmonV\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\bin\Debug\Calculator.exe
+C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\obj\Debug\Calculator.MainForm.resources
+C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\obj\Debug\Calculator.exe
+C:\Users\Vojta\Documents\SharpDevelop Projects\CalculatorAmonV\Calculator\obj\Debug\Calculator.pdb
