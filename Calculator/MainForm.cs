@@ -230,5 +230,15 @@ namespace Calculator
         {
             MessageBox.Show("Vytvoren update pro git", "Název okna", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+			Graphics gra = this.panel1.CreateGraphics();
+			Pen blackpen = new Pen(Color.Black, 3);
+
+			PointF pnt1 = new PointF(0, 15000);
+            PointF pnt2 = new PointF(50, 0);
+			e.Graphics.DrawLine(blackpen, pnt1, pnt2);
+        }
     }
 }
