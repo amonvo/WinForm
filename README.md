@@ -1,6 +1,11 @@
 # WinForm
 
 Author: Vojtech Amon <vojtech.amon@seznam.cz>
+Date:   Thu Feb 9 22:43:10 2023 +0100
+
+    Kompletni uprava celkoveho vyhledu talcitek, nastaveni mensi rozliseni
+
+Author: Vojtech Amon <vojtech.amon@seznam.cz>
 Date:   Thu Feb 9 22:09:27 2023 +0100
 
     Uprava celkoveho vzhledu kalkulatoru - finalni verze
