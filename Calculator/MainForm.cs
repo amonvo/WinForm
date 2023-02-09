@@ -255,7 +255,6 @@ namespace Calculator
         private void button12_Click(object sender, EventArgs e)
         {
 			abacuses = 0;
-			buttonPocitadlo.Text = string.Empty;
 			buttonPocitadlo.Text = "Klikej";
         }
     }
