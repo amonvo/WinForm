@@ -251,5 +251,12 @@ namespace Calculator
         {
 			pictureBox1.Visible = true;
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+			abacuses = 0;
+			buttonPocitadlo.Text = string.Empty;
+			buttonPocitadlo.Text = "Klikej";
+        }
     }
 }
