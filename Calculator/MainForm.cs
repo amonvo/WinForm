@@ -23,6 +23,7 @@ namespace Calculator
 		public double lastnum = 0.0;
 		public double result = 0.0;
 		int abacuses = 0;
+		private List<string> selectedColorsList = new List<string>();
 		
 		public MainForm()
 		{
@@ -31,22 +32,9 @@ namespace Calculator
 			//
 			InitializeComponent();
 
-            greenCheckBox.BackColor = Color.Green;
-            greenCheckBox.Font = new Font("Arial", 12);
             greenCheckBox.Checked = true;
-
-            redCheckBox.BackColor = Color.Red;
-            redCheckBox.Font = new Font("Serif", 12);
             redCheckBox.Checked = true;
-
-
-            blueCheckBox.BackColor = Color.Blue;
-            blueCheckBox.Font = new Font("Arial", 12);
             blueCheckBox.Checked = true;
-
-
-            yellowCheckBox.BackColor = Color.Yellow;
-            yellowCheckBox.Font = new Font("Serif", 12);
             yellowCheckBox.Checked = true;
         }
 		void Button10Click(object sender, EventArgs e)
@@ -208,22 +196,27 @@ namespace Calculator
 
         private void buttonBarvy_Click(object sender, EventArgs e)
         {
-            if (greenCheckBox.Checked)
+            selectedColorsList.Clear();
+            
+            if (redCheckBox.Checked)
             {
-                MessageBox.Show("Green");
+                selectedColorsList.Add("Red");
             }
             if (blueCheckBox.Checked)
             {
-                MessageBox.Show("Blue");
+                selectedColorsList.Add("Blue");
             }
-            if (redCheckBox.Checked)
+            if (greenCheckBox.Checked)
             {
-                MessageBox.Show("Red");
+                selectedColorsList.Add("Green");
             }
             if (yellowCheckBox.Checked)
             {
-                MessageBox.Show("Yellow");
+                selectedColorsList.Add("Yellow");
             }
+            
+            infoPanelBarvy.Visible = true;
+            infoPanelBarvy.Invalidate();
         }
 
         private void buttonText_Click(object sender, EventArgs e)
@@ -256,6 +249,72 @@ namespace Calculator
         {
 			abacuses = 0;
 			buttonPocitadlo.Text = "Klikej";
+        }
+
+        private void closeInfoButton_Click(object sender, EventArgs e)
+        {
+            infoPanelBarvy.Visible = false;
+        }
+
+        private void infoPanelBarvy_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics g = e.Graphics;
+            int yPos = 10;
+            int squareSize = 12;
+            int spacing = 5;
+            
+            Font font = new Font("Segoe UI", 9F);
+            Brush textBrush = new SolidBrush(Color.FromArgb(60, 70, 80));
+            
+            if (selectedColorsList.Count == 0)
+            {
+                g.DrawString("Žádné barvy", font, textBrush, 10, 10);
+            }
+            else
+            {
+                foreach (string colorName in selectedColorsList)
+                {
+                    Color fillColor = Color.Black;
+                    Color borderColor = Color.FromArgb(200, 200, 200);
+                    
+                    switch (colorName)
+                    {
+                        case "Red":
+                            fillColor = Color.FromArgb(220, 50, 50);
+                            break;
+                        case "Blue":
+                            fillColor = Color.FromArgb(50, 100, 200);
+                            break;
+                        case "Green":
+                            fillColor = Color.FromArgb(60, 180, 80);
+                            break;
+                        case "Yellow":
+                            fillColor = Color.FromArgb(255, 220, 50);
+                            borderColor = Color.FromArgb(180, 160, 40);
+                            break;
+                    }
+                    
+                    // Nakreslit barevný čtvereček
+                    using (SolidBrush brush = new SolidBrush(fillColor))
+                    {
+                        g.FillRectangle(brush, 10, yPos, squareSize, squareSize);
+                    }
+                    
+                    // Nakreslit okraj čtverečku
+                    using (Pen pen = new Pen(borderColor, 1))
+                    {
+                        g.DrawRectangle(pen, 10, yPos, squareSize, squareSize);
+                    }
+                    
+                    // Nakreslit text
+                    g.DrawString(colorName, font, textBrush, 10 + squareSize + spacing, yPos - 2);
+                    
+                    yPos += squareSize + 8;
+                }
+            }
+            
+            font.Dispose();
+            textBrush.Dispose();
         }
     }
 }
